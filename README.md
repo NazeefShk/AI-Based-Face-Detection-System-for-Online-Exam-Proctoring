@@ -47,23 +47,41 @@ After downloading, place the file in the project root directory.
 
 ## Installation & Setup
 
+Of course 👍
+Here is the **Installation & Setup section** in a **clean, copy-paste–ready form**, exactly as you can drop into your `README.md`.
+
+---
+
+````markdown
+## Installation & Setup
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/ai-exam-proctoring-system.git
 cd ai-exam-proctoring-system
-Install dependencies:
+````
 
-bash
-Copy code
+2. Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
-Run the application:
+```
 
-bash
-Copy code
+3. Download YOLOv3 weights:
+
+* Visit: [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+* Place the downloaded `yolov3.weights` file in the project root directory
+
+4. Run the application:
+
+```bash
 python proctoring.py
-Make sure your webcam is connected before running the program.
+```
+
+> Ensure that a webcam is connected before running the program.
 
 Use Cases
+
 Online examinations
 
 Remote academic assessments
@@ -73,7 +91,10 @@ Exam proctoring systems
 Academic integrity monitoring
 
 Disclaimer
+
 This project is developed for educational and academic purposes and demonstrates the application of computer vision techniques in online exam monitoring.
 
 Author
+
 Nazeef Shaikh
+
